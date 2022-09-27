@@ -1,0 +1,42 @@
+#underHeader {
+    padding-top: 0.5vw;
+    text-transform: capitalize;
+    position: relative;
+}
+
+#underHeader .underHeaderTitle {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+}
+
+#underHeader img {
+    opacity: 0.2;
+}
+
+#underHeader p {
+    display: flex;
+    justify-content: center;
+    margin-top: -1vw;
+}
+
+#underHeader p span.to {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+@media(min-width:601px) {
+    #underHeader .underHeaderTitle {
+        top: 6vw;
+    }
+}
+
+@media(max-width:600px) {
+    #underHeader .underHeaderTitle{
+        top: 4vw;
+    }
+    #underHeader p {
+        margin-top: -2.5vw;
+    }
+}

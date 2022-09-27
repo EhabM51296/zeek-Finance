@@ -1,0 +1,211 @@
+/*----------------------------------------------header sliding animation------------------------------------------------------------*/
+
+@keyframes leftSlide {
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+
+@keyframes rightSlide {
+    from {
+        margin-left: 0;
+    }
+    to {
+        margin-left: -50%;
+    }
+}
+@keyframes topSlide{
+    from{
+        transform: scaleY(0);
+    }
+    to{
+        transform: scaleY(1);
+    }
+}
+@media(max-width:600px) {
+    .leftslide {
+        animation-name: leftSlide;
+        animation-duration: 1s;
+    }
+    .rightslide {
+        animation-name: rightSlide;
+        animation-duration: 1s;
+    }
+}
+
+/*---------------------------------------------------------fading animation------------------------------------------------------*/
+
+@keyframes fading {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade {
+    animation-name: fading;
+    animation-duration: 1.5s;
+}
+
+.initial {
+    visibility: hidden;
+}
+
+/*-------------------------------------------------------------windows drop------------------------------------------------------*/
+
+@keyframes windows {
+    from {
+        height: 0%;
+    }
+    to {
+        height: 100%;
+    }
+}
+@keyframes reverseWindows {
+    from {
+        height: 100%;
+    }
+    to {
+        height: 0%;
+    }
+}
+
+.windowsHover>.dropWindows:before {
+    height: 0%;
+    width: 100%;
+    position: absolute;
+    content: "";
+    background-color: rgb(22, 36, 57);
+    opacity: 0.9;
+    animation-name: reverseWindows;
+    animation-duration: 0.1s;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+}
+
+.windowsHover:hover>.dropWindows:before {
+    background-color: rgb(22, 36, 57);
+    opacity: 0.9;
+    width: 100%;
+    animation-name: windows;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    content: "";
+}
+/* ----------------------------------------------------------color changer-------------------------------------------------- */
+.blueColorHover,.blackColorHover{
+    transition: color 1s;
+}
+.blueColorHover:hover{
+     color: rgb(39,130,249);
+    -webkit-transition: color 500ms linear;
+    -ms-transition: color 500ms linear;
+    transition: color 500ms linear;
+    cursor: pointer;
+}
+.blackColorHover:hover{
+    color: black;
+   -webkit-transition: color 500ms linear;
+   -ms-transition: color 500ms linear;
+   transition: color 500ms linear;
+   cursor: pointer;
+}
+/* -----------------------------------------------background color changer ------------------------------------------------ */
+.blackBgColorHover,button{
+    transition: background-color 1s;
+}
+.blackBgColorHover:hover{
+    background-color: black !important;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+button:hover{
+    background-color: black !important;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+    cursor: pointer;
+
+}
+/* ----------------------------------------------underLine Animation--------------------------------------------------------- */
+.underLineAnimation{
+    position: relative;
+}
+.underLineAnimation:after{
+        content: '';
+        position: absolute;
+        width: 0vw;
+        display: block;
+        height: 3px;
+        background-color: rgb(39, 130, 249);
+        margin-top: 0.5vw;
+        -webkit-transition: width 300ms linear;
+        -ms-transition: width 300ms linear;
+        transition: width 300ms linear;
+}
+.underLineAnimation:hover:after{
+    width: 100%;
+}
+/*-----------------------------------------------scale animation for arrows------------------------------------------------- */
+.arrow .left,.arrow .right {
+    transition: transform 1s;
+  }
+  .arrow .left:hover{
+    transform: scale(2) rotate(180deg);
+}
+
+.arrow .right:hover{
+    transform: scale(2);
+}
+/*---------------------------------------------------------- Drop DownList ---------------------------------------------- */
+@media(min-width:601px)
+{
+    .drop:hover .dropDownList {
+    transform: scaleY(1);
+    }
+}
+
+
+.drop .dropDownList {
+    width:15vw;
+    background-color: rgb(39,130,249);
+    position: absolute;
+    transform: scaleY(0);    
+    transform-origin: top;
+    transition: transform 0.26s ease;
+    
+}
+
+
+/* ------------------------------------------ loading animation ----------------------------------------------------------------- */
+@media(min-width:601px)
+{
+    @keyframes loadingAnimation {
+        from {
+           max-width: 0px;
+        }
+      
+        to {
+            max-width: 15vw;
+        }
+      }
+}
+@media(max-width:600px)
+{
+    @keyframes loadingAnimation {
+        from {
+           max-width: 0px;
+        }
+      
+        to {
+            max-width: 25vw;
+        }
+      }
+}

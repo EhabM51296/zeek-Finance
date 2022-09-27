@@ -1,0 +1,196 @@
+/* ------------------------------------general -----------------------------------------------*/
+
+#header {
+    width: 100%;
+}
+
+#itemSection {
+    width: 100%;
+}
+
+#itemsContainer .item {
+    width: fit-content;
+    width: -moz-max-content;
+}
+#contactSection .rightIcons img{
+    cursor: pointer;
+}
+@media(min-width:601px) {
+    /* ---------------------------Contact section (upper header) ------------------------------------------*/
+    #contactSection {
+        width: 100%;
+        border-bottom: 1px solid white;
+        display: flex;
+    }
+    #leftSide-Contact, #rightSide-Contact {
+        display: inline-block;
+        width: 50%;
+        float: left;
+    }
+    #gpsImage, #mailImage {
+        display: inline-block;
+    }
+    #gpsImage {
+        margin-left: 10%;
+    }
+    #mailImage {
+        margin-left: 5%;
+    }
+    #contactSection img {
+        width: 2vw;
+        height: 2vw;
+        vertical-align: middle;
+    }
+    #contactSection p {
+        font-size: 1vw;
+    }
+    #contactSection p span {
+        vertical-align: middle;
+        margin-left: 0.5vw;
+    }
+    #contactSection .rightIcons:nth-child(1) {
+        margin-left: 30%;
+    }
+    #contactSection .rightIcons {
+        display: inline-block;
+        border-left: 1px solid white;
+        width: 8%;
+        float: left;
+        height: 100%;
+    }
+    #contactSection .rightIcons:nth-child(4) {
+        width: fit-content;
+        width: -moz-max-content;
+        text-indent: 2vw;
+        text-align: left !important;
+    }
+    .rightIcons span {
+        padding-left: 10px;
+    }
+    /* -------------------------------------------------------Item section (lower header)------------------------------------- */
+    #itemSection {
+        padding-top: 2vw;
+        padding-bottom: 1vw;
+        display: flex;
+    }
+   
+    #itemSection #logo {
+        width: 30%;
+        padding-left: 3vw;
+    }
+    #logo img#logoDesk {
+        width: 100%;
+        display: block;
+    }
+    #logo img#logoMob {
+        display: none;
+    }
+    #itemsContainer {
+        width: 70%;
+        margin-top: -0.5vw;
+        margin-left: 3%;
+    }
+    #itemsContainer .item {
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        margin-left: 5%;
+    }
+    .item p {
+        font-size: 1.3vw;
+    }
+    .item p.noBg {
+        width: fit-content;
+    }
+    .drop .dropDownList p {
+        border-bottom: 1px solid white;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        font-size: 1vw;
+        text-align: left;
+        padding-bottom: 0.5vw;
+    }
+    .drop .dropDownList p:last-child {
+        border-bottom: 0px solid white;
+    }
+    .item:nth-child(8) a{
+        background-color: rgb(39, 130, 249);
+        border-radius: 0.5vw;
+        padding: 1vw;
+        cursor: pointer;
+    }
+    
+    #logo2, #showItems, #hideItems {
+        display: none;
+    }
+}
+
+@media(max-width:600px) {
+    #header {
+        padding-top: 3vw;
+        padding-bottom: 2vw;
+    }
+    #contactSection {
+        display: none;
+    }
+    /* ------------------------------------------------item section-------------------------------------------------- */
+    #itemSection #logo {
+        width: 100%;
+    }
+    #logo img#logoDesk {
+        display: none;
+    }
+    #logo img#logoMob {
+        display: block;
+        width: 70%;
+        margin-left: 15%;
+    }
+    #showItems {
+        position: absolute;
+        width: 10%;
+        top: 4vw;
+        left: 2vw;
+        cursor: pointer;
+    }
+    #showItems img {
+        width: 100%;
+    }
+    #itemsContainer {
+        display: none;
+        width: 90%;
+        position: absolute;
+        z-index: 9999;
+        background-color: white;
+        left: 0;
+        top: 0;
+        padding-top: 2vw;
+        height: 100vh;
+    }
+    #logo2 {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 15vw;
+    }
+    #logo2 img {
+        width: 100%;
+    }
+    #itemsContainer .item {
+        margin-top: 25px;
+        width: 100%;
+    }
+    .item p {
+        font-size: 25px;
+    }
+    .item a {
+        color: black;
+    }
+    #hideItems {
+        position: absolute;
+        right: 2vw;
+        top: -1vw;
+        cursor: pointer;
+    }
+    #hideItems p {
+        font-size: 6vw;
+    }
+}

@@ -1,0 +1,109 @@
+#teamGrid{
+    display: grid;
+}
+@media(min-width:601px)
+{
+    #Team{
+        margin-top: 8vw;
+        padding-top: 5vw;
+        padding-bottom: 18vw;
+        background-color: rgb(239,243,255);
+
+    }
+    #Team h1#experienceTitle {
+        margin-top: -1vw;
+    }
+    #teamGrid{
+        margin-top: 6vw;
+        grid-template-columns: 35% 35%;
+        width: 80%;
+        margin-left: 10%;
+        grid-gap: 30%;
+    }
+    .member{
+        position: relative;
+        box-shadow: 0.5vw 0.5vw 0.5vw 0vw black;
+        border-radius: 1vw;
+    }
+    .member .memberDetails{
+        position: absolute;
+        background-color: white;
+       border-radius: 1vw;
+       width:100%;
+       height:16vw;
+       top:75%;
+       box-shadow: 0.5vw 0.5vw 0.5vw 0vw black;
+       padding-top: 1.5vw;
+    }
+
+    .member .memberDetails h2{
+        position: relative;
+    }
+    .member .memberDetails h2 p{
+        position: absolute;
+        top:2vw;
+    }
+    .member .memberJob{
+        margin-top: 2.5vw;
+    }
+    .member .memberDetails p{
+        width:80%;
+        margin-left: 10%;
+        line-height: 1.5vw;
+    }
+  
+    .member img{
+        width: 100%;
+        border-radius: 1vw;
+    }
+}
+
+@media(max-width:600px) {
+    #Team{
+        margin-top: 10vw;
+        padding-top: 8vw;
+        padding-bottom: 55vw;
+        background-color: rgb(239,243,255);
+
+    }
+    #Team h1#experienceTitle {
+        margin-top: -1vw;
+    }
+    #teamGrid{
+        margin-top: 8vw;
+        grid-template-columns: 100%;
+        width: 80%;
+        margin-left: 10%;
+        grid-gap: 70vw;
+    }
+    .member{
+        position: relative;
+        box-shadow: 1vw 1vw 1vw 0vw black;
+        border-radius: 2vw;
+        /* margin-top: 1vw; */
+    }
+    .member .memberDetails{
+        position: absolute;
+        background-color: white;
+       border-radius: 2vw;
+       width:100%;
+       height:fit-content;
+       height: -moz-fit-content;
+       top:90%;
+       box-shadow: 1vw 1vw 1vw 0vw black;
+       padding-top: 5vw;
+       padding-bottom: 5vw;
+    }
+
+    .member .memberDetails p{
+        width:80%;
+        margin-left: 10%;
+        line-height: 5vw;
+    }
+  
+    .member img{
+        width: 100%;
+        border-radius: 2vw;
+    }
+    
+}

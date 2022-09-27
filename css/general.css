@@ -1,0 +1,319 @@
+/* --------------------------------------------------Fonts Used--------------------------------------------------------------- */
+
+@font-face {
+    font-family: robotoBlack;
+    src: url(fonts/Roboto-Black.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: robotoBold;
+    src: url(fonts/Roboto-Bold.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: robotoLight;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: robotoMedium;
+    src: url(fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: robotoRegular;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: robotoThin;
+    src: url(fonts/Roboto-Thin.ttf);
+}
+
+/* --------------------------------------------------fonts classes-------------------------------------------------------------- */
+
+.robotBlack {
+    font-family: robotoBlack;
+}
+
+.robotBold {
+    font-family: robotoBold;
+}
+
+.robotMedium {
+    font-family: robotoMedium;
+}
+
+.robotRegular {
+    font-family: robotoRegular;
+}
+
+.robotLight {
+    font-family: robotoLight;
+}
+
+.robotThin {
+    font-family: robotoThin;
+}
+
+/* ------------------------------------------------General css for elements------------------------------------------------------------------------------- */
+
+html body {
+    overflow: hidden;
+    position: relative;
+    min-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-family: robotoMedium !important;
+    background-color: rgb(39, 130, 249);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/* ------------------------------------------------general classes-------------------------------------------------------------------------- */
+
+.arrow {
+    position: absolute;
+    width: 100%;
+}
+
+.arrow img {
+    cursor: pointer;
+}
+
+/* -------------------------------------for header */
+
+@media(min-width:601px) {
+    .headerBg {
+        background-color: #0F1C2F;
+        color: white;
+    }
+    .underLineH:after {
+        content: '';
+        position: absolute;
+        width: 2vw;
+        display: block;
+        height: 3px;
+        background-color: rgb(39, 130, 249);
+        margin-top: 0.5vw;
+    }
+    .hoverUnderLineH:hover:after {
+        content: '';
+        position: absolute;
+        width: 2vw;
+        display: block;
+        height: 3px;
+        background-color: rgb(39, 130, 249);
+        margin-top: 0.5vw;
+    }
+    .hoverUnderLineH.special:hover:after {
+        width: 0vw !important;
+    }
+    .underLineH.special:after {
+        width: 0vw !important;
+    }
+}
+
+@media(max-width:600px) {
+    .headerBg {
+        background-color: white;
+        color: black;
+    }
+    .underLineH {
+        color: rgb(39, 130, 249) !important;
+    }
+}
+
+/* --------------------------------------------other than header */
+
+/* text part */
+
+.txtBlue {
+    color: rgb(39, 130, 249);
+}
+
+.txtWhite {
+    color: white;
+}
+
+.txtBlack {
+    color: black;
+}
+.txtweakBlack{
+    color:rgb(127,119,131);
+}
+.txtRed{
+    color: red;
+}
+.center {
+    text-align: center;
+}
+/*Unselectable*/
+.unSelectable{
+-webkit-user-select: none !important;
+-khtml-user-select: none !important;
+-moz-user-select: none !important;
+-ms-user-select: none !important;
+-o-user-select: none !important;
+user-select: none !important;
+}
+/* font text size part */
+@media(min-width:601px)
+{
+    .txtSmall{
+        font-size: 1.5vw;
+    }
+    .txtSmallSecondary{
+        font-size: 1vw;
+    }
+    .txtTinyBig{
+        font-size: 1vw;
+    }
+    .txtMed{
+        font-size: 2.5vw;
+    }
+    .txtMedSecondary{
+        font-size: 2vw;
+    }
+    .txtLarge{
+        font-size: 2.5vw;
+    }
+    .txtSmallBig{
+        font-size: 1.5vw;
+    }
+    .txtVlarge{
+        font-size: 4vw;
+    }
+}
+@media(max-width:600px)
+{
+    .txtSmall{
+        font-size: 4vw;
+    }
+    .txtSmallSecondary{
+        font-size: 3vw;
+    }
+    .txtTinyBig{
+        font-size: 4vw;
+    }
+    .txtMed{
+        font-size: 5vw;
+    }
+    .txtMedSecondary{
+        font-size: 5vw;
+    }
+    .txtLarge{
+        font-size: 7vw;
+    }
+    .txtSmallBig{
+        font-size: 6vw;
+    }
+    .txtVlarge{
+        font-size: 8vw;
+    }
+}
+/* underline part */
+@media(min-width:601px)
+{
+    .underLine:after{
+        content: '';
+        width: 4vw;
+        display: block;
+        height: 3px;
+        background-color: rgb(39, 130, 249);
+        margin-top: 0.5vw;
+    }
+    .underLineFull:after{
+        content: '';
+        width: 100%;
+        display: block;
+        height: 3px;
+        background-color: rgb(39, 130, 249);
+        margin-top: 0.5vw;
+    }
+    .underLineLeft:after{
+        content: '';
+        position: absolute;
+        width: 5vw !important;
+        display: block;
+        height: 3px;
+        background-color: rgb(39, 130, 249);
+        margin-top: 0.5vw;
+        margin-left: 47vw;
+
+    }
+}
+@media(max-width:600px)
+{ 
+    .underLine:after{
+        content: '';
+        /* position: absolute; */
+        width: 7vw;
+        display: block;
+        height: 0.5vw;
+        background-color: rgb(39, 130, 249);
+        margin-top: 0.5vw;
+    }
+    .underLineFull:after{
+        content: '';
+        width: 100%;
+        display: block;
+        height: 0.5vw;
+        background-color: rgb(39, 130, 249);
+        margin-top: 0.5vw;
+    }
+    .underLineLeft:after{
+        content: '';
+        position: absolute;
+        width: 8vw;
+        display: block;
+        height: 0.5vw;
+        background-color: rgb(39, 130, 249);
+        margin-top: 0.5vw;
+        margin-left: 45vw;
+        
+    }
+
+
+}
+
+/* bg Color part */
+.bgColorWhite{
+    background-color: white;
+}
+.bgColorDarkBlue {
+    background-color: #0F1C2F;
+}
+.bgColorBlack{
+    background-color: black;
+}
+.bgColorBlue {
+    background-color: rgb(39, 130, 249);
+}
+.fixedHeader{
+    position: fixed;
+    z-index:9000;
+    background-color: white;
+    top:0;
+    left:0;
+    animation-name: topSlide;
+    animation-duration: 0.5s;
+    transform-origin: top;
+}

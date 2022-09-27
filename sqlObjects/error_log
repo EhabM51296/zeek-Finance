@@ -1,0 +1,46 @@
+[11-Jul-2021 21:50:29 UTC] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /export/home/zeekfinance/public_html/sqlObjects/connect.php:8
+Stack trace:
+#0 /export/home/zeekfinance/public_html/sqlObjects/user.php(20): require()
+#1 /export/home/zeekfinance/public_html/sqlObjects/user.php(100): find_userByEmail('ehabmaatouk@out...')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/sqlObjects/connect.php on line 8
+[11-Jul-2021 21:51:18 UTC] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /export/home/zeekfinance/public_html/sqlObjects/connect.php:8
+Stack trace:
+#0 /export/home/zeekfinance/public_html/sqlObjects/user.php(20): require()
+#1 /export/home/zeekfinance/public_html/sqlObjects/user.php(100): find_userByEmail('ehabmaatouk@out...')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/sqlObjects/connect.php on line 8
+[11-Jul-2021 21:52:20 UTC] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /export/home/zeekfinance/public_html/sqlObjects/connect.php:8
+Stack trace:
+#0 /export/home/zeekfinance/public_html/sqlObjects/user.php(20): require()
+#1 /export/home/zeekfinance/public_html/sqlObjects/user.php(100): find_userByEmail('ehabmaatouk@out...')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/sqlObjects/connect.php on line 8
+[11-Jul-2021 21:52:44 UTC] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /export/home/zeekfinance/public_html/sqlObjects/connect.php:8
+Stack trace:
+#0 /export/home/zeekfinance/public_html/sqlObjects/user.php(20): require()
+#1 /export/home/zeekfinance/public_html/sqlObjects/user.php(100): find_userByEmail('ehabmaatouk@out...')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/sqlObjects/connect.php on line 8
+[11-Jul-2021 21:53:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /export/home/zeekfinance/public_html/sqlObjects/user.php:29
+Stack trace:
+#0 /export/home/zeekfinance/public_html/sqlObjects/user.php(100): find_userByEmail('ehabmaatouk@out...')
+#1 {main}
+  thrown in /export/home/zeekfinance/public_html/sqlObjects/user.php on line 29
+[11-Jul-2021 21:53:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /export/home/zeekfinance/public_html/sqlObjects/user.php:29
+Stack trace:
+#0 /export/home/zeekfinance/public_html/sqlObjects/user.php(100): find_userByEmail('ehabmaatouk@out...')
+#1 {main}
+  thrown in /export/home/zeekfinance/public_html/sqlObjects/user.php on line 29
+[11-Jul-2021 21:54:22 UTC] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /export/home/zeekfinance/public_html/sqlObjects/connect.php:8
+Stack trace:
+#0 {main}
+  thrown in /export/home/zeekfinance/public_html/sqlObjects/connect.php on line 8
+[11-Jul-2021 21:55:53 UTC] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /export/home/zeekfinance/public_html/sqlObjects/connect.php:8
+Stack trace:
+#0 {main}
+  thrown in /export/home/zeekfinance/public_html/sqlObjects/connect.php on line 8
+[11-Jul-2021 21:58:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /export/home/zeekfinance/public_html/sqlObjects/connect.php:8
+Stack trace:
+#0 {main}
+  thrown in /export/home/zeekfinance/public_html/sqlObjects/connect.php on line 8

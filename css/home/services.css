@@ -1,0 +1,140 @@
+@media(min-width:601px) {
+    #services {
+        margin-top: 8vw;
+        position: relative;
+    }
+   
+    #services h1.title {
+        margin-top: -1vw;
+    }
+    #allServices {
+        display: flex;
+        width: 95%;
+        margin-left: 2.5%;
+        overflow-x: hidden;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .serviceParent {
+        min-width: 33.33%;
+    }
+    .service {
+        width: 90%;
+        margin-left: 5%;
+        border-radius: 1vw;
+        box-shadow: 0vw 0.5vw 0vw 0vw rgb(39, 130, 249);
+        padding-bottom: 2vw;
+        cursor: pointer;
+    }
+    .service img {
+        border-top-right-radius: 1vw;
+        border-top-left-radius: 1vw;
+    }
+    .serviceImg{
+        position: relative;
+    }
+    .service .serviceDescription, .service .readMore {
+        margin-left: 2vw;
+    }
+    .service .serviceDescription h1 {
+        height: 3vw;
+    }
+    .service .serviceDescription p.desc {
+        margin-top: 2.5vw;
+         height:5vw;
+         line-height: 2.5vw;
+    }
+    .service .readMore {
+        margin-top: 6vw;
+    }
+    .service .readMore p {
+        width: fit-content;
+        width: -moz-fit-content;
+    }
+    #services .arrow {
+        position: absolute;
+        width: 100%;
+        top: 27vw;
+    }
+    #services .arrow img {
+        width: 3vw;
+        cursor: pointer;
+    }
+    #services .arrow .right {
+        margin-right: 2vw;
+    }
+    #services .arrow .left {
+        margin-left: 2vw;
+    }
+
+}
+
+@media(max-width:600px) {
+    #services {
+        margin-top: 8vw;
+        position: relative;
+    }
+    #services h1.title {
+        margin-top: -1vw;
+    }
+    #allServices {
+        display: flex;
+        width: 95%;
+        margin-left: 2.5%;
+        overflow-x: hidden;
+        padding-top: 4vw;
+        padding-bottom: 5vw;
+    }
+    .serviceParent {
+        min-width: 100%;
+    }
+    .service {
+        width: 90%;
+        margin-left: 5%;
+        border-radius: 2vw;
+        box-shadow: 0vw 1vw 0vw 0vw rgb(39, 130, 249);
+        padding-bottom: 2vw;
+        cursor: pointer;
+    }
+    .service img {
+        border-top-right-radius: 2vw;
+        border-top-left-radius: 2vw;
+    }
+    .serviceImg{
+        position: relative;
+    }
+    .service .serviceDescription, .service .readMore {
+        margin-left: 2vw;
+    }
+    .service .serviceDescription h1 {
+        height:7vw;
+    }
+    .service .serviceDescription p.desc {
+        margin-top: 3vw;
+        height:15vw;
+        line-height: 7vw;
+    }
+    .service .readMore{
+        margin-top: 11vw;
+    }
+    .service .readMore p {
+        width:fit-content;
+        width: -moz-fit-content;
+    }
+   
+    #services .arrow {
+        position: absolute;
+        width: 100%;
+        top: 73vw;
+    }
+    #services .arrow img {
+        width: 6vw;
+        cursor: pointer;
+    }
+    #services .arrow .right {
+        margin-right: 3vw;
+    }
+    #services .arrow .left {
+        margin-left: 3vw;
+    }
+}

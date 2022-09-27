@@ -1,0 +1,90 @@
+
+#firstSection{
+    position: relative;
+}
+#firstSection img{
+    opacity: 0.7;
+ }
+ 
+ #firstSection .titleImage{
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
+}
+
+
+ .changable{
+     display: none;
+ }
+ 
+.arrow .right{
+    float:right;
+}
+.arrow .left{
+    float:left;
+    transform: rotate(180deg);
+}
+
+@media(min-width:601px)
+{
+    #firstSection .titleImage{
+        width:60%;
+        margin-left:8vw;
+    }
+    .titleImage h1{
+        font-size: 4vw;
+    }
+    .titleImage p{
+        font-size: 2vw;
+        margin-top:-1vw;
+        height:3vw;
+    }
+    #firstSection button{
+        font-size: 2vw;
+        border-radius: 0.5vw;
+        padding:1vw 2vw;
+        margin-top: 2vw;;
+    }
+    #firstSection .arrow{
+        top:15vw;
+    }
+    #firstSection .arrow img{
+        width:3vw;
+    }
+   
+}
+@media(max-width:600px)
+{
+    #firstSection{
+    height:60vw;
+}
+#firstSection img{
+    height:60vw;
+}
+    #firstSection .titleImage{
+        width:80%;
+        margin-left:8vw;
+        margin-top: 6vw;
+    }
+    .titleImage h1{
+        font-size: 6vw;
+    }
+    .titleImage p{
+        font-size: 3.5vw;
+        margin-top:-1vw;
+        height:7vw;
+    }
+    #firstSection button{
+        font-size: 3.5vw;
+        border-radius: 1vw;
+        padding:1.5vw 3vw;
+        margin-top: 2.5vw;;
+    }
+    #firstSection .arrow{
+        top:27vw;
+    }
+    #firstSection .arrow img{
+        width:6vw;
+        height: 6vw;
+    }
+}

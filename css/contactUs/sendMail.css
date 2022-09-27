@@ -1,0 +1,100 @@
+#sendMail{
+    background-color: rgb(239,243,255);
+    overflow-x: hidden;
+}
+#sendFormContainer .formControl{
+    display: block;
+    outline: none;
+    border: none;
+}
+#sendFormContainer button{
+    display: block;
+    border: none;
+}
+#sendFormContainer textarea{
+    resize: none;
+}
+.inputRelativeContainer{
+    position: relative;
+}
+.inputRelativeContainer p{
+    position: absolute;
+    display: none;
+}
+
+@media(min-width:601px)
+{
+    #sendMail{
+        padding-top:3vw;
+        padding-bottom: 3vw;
+    }
+    #sendMailTitle{
+        margin-left: 2vw;
+    }
+    #sendMailTitle h1{
+        margin-top: -1vw;
+    }
+    #sendFormContainer{
+        margin-left: 2vw;
+    }
+    #sendFormContainer .formControl{
+        width:60%;
+        border-radius: 0.5vw;
+        padding: 1vw;
+        margin-top: 2vw;
+    }
+    #sendFormContainer button{
+        border-radius: 0.5vw;
+        padding: 1vw;
+        padding-left:1.5vw;
+        padding-right:1.5vw;
+        margin-top: 1vw;
+        width:10%;
+    }
+    #sendFormContainer textarea{
+       height:8vw;
+    }
+    .inputRelativeContainer p{
+        top:-2.5vw;
+    }
+    
+   
+}
+@media(max-width:600px)
+{
+    #sendMail{
+        padding-top:4vw;
+        padding-bottom: 5vw;
+    }
+    #sendMailTitle{
+        margin-left: 5%;
+    }
+    #sendMailTitle h1{
+        margin-top: -1vw;
+    }
+    #sendFormContainer{
+        margin-left: 5%;
+    }
+    #sendFormContainer .formControl{
+        width:90%;
+        border-radius: 0.5vw;
+        padding: 2vw;
+        margin-top: 5vw;
+    }
+     .inputRelativeContainer p{
+        top:-7vw;
+    }
+    #sendFormContainer button{
+        border-radius: 0.5vw;
+        padding: 1vw;
+        padding-left:1.5vw;
+        padding-right:1.5vw;
+        margin-top: 2.5vw;
+        width:20%;
+    }
+    #sendFormContainer textarea{
+       height:20vw;
+    }
+    
+   
+}

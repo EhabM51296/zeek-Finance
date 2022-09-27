@@ -1,0 +1,170 @@
+#otherBlogs{
+    background-color: rgb(239,243,255);
+    height: fit-content;
+    height: -moz-fit-content;
+}
+a.bottomBlog{
+    color: rgb(39,130,249) !important;
+    display: block;
+    width: fit-content;
+    width: -moz-max-content;
+ }
+ table#example{
+     width: 95%;
+ }
+ table#example td, table#example tr{
+     width:50%;
+
+ }
+@media(min-width:601px)
+{
+     #blogDetails{
+        margin-top: 5vw;
+        display: flex;
+        padding-bottom: 5vw;
+    }
+   
+    #currentBlog{
+        margin-left: 5%;
+        width:50%;
+    }
+    #currentBlog #currentBlogImage img{
+        width:100%;
+    }
+
+    ul.noStyle{
+        list-style-type: none;
+    }
+    ul.noStyle li{
+        margin-top: 2vw;
+        padding-bottom: 0.5vw;
+    }
+    ul.noStyle li::before{
+      content: "\2022";
+      color: rgb(204,0,204);
+      font-weight: bold;
+      display: inline-block; 
+      width: 1em;
+      margin-left: -1em;
+      font-size: 2vw;
+      
+    }
+    ul.noStyle span{
+        line-height: 2vw;
+    }
+   
+    #currentBlogInfo p.intro{
+        margin-top: -1vw;
+        line-height: 2vw;
+    }
+    #rightSideBlog{
+        width:45%;
+    }
+    #otherBlogs{
+        width:60%;
+        margin-left: 15%;
+        padding:2vw 3vw;
+        border-radius: 0.3vw;
+    }
+    .graphImg{
+        padding-top: 5vw;
+        width:75%;
+        margin-left: 15%;
+
+    }
+    #underGraphLink{
+        width: 85%;
+        margin-left: 15%;
+        padding-top: 2vw;
+        font-size:1.2vw;
+    }
+   
+    a.bottomBlog{
+        padding-top: 1.5vw;
+    }
+    table#example{
+        width: 95%;
+        padding-top:1vw;
+        padding-bottom: 1vw;
+    }
+    
+}
+@media(max-width:600px)
+{
+    #blogDetailsContainer{
+        padding-bottom: 110vw;
+    }
+    #blogDetails{
+        margin-top: 5vw;
+        position: relative;
+        padding-bottom: 10vw;
+    }
+   
+    #currentBlog{
+        margin-left: 2.5%;
+        width:95%;
+    }
+    #currentBlog #currentBlogImage img{
+        width:100%;
+    }
+    ul.noStyle{
+        list-style-type: none;
+        list-style-position:inside;
+        margin:0;
+        padding:0;
+        width:95%;
+        margin-left: 2.5%;
+    }
+    ul.noStyle li{
+        margin-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    ul.noStyle li::before{
+      content: "\2022";
+      color: rgb(204,0,204);
+      font-weight: bold;
+      display: inline-block; 
+      width: 3vw;
+      margin-left: -2vw;
+      font-size: 5vw;
+      
+    }
+    ul.noStyle span{
+        line-height: 6vw;
+    }
+   
+    #otherBlogs{
+        width:95%;
+        margin-left: 2.5%;
+        padding-top:4vw;
+        padding-bottom:4vw;
+        border-radius: 0.5vw;
+        position: absolute;
+        top:100%;
+    }
+    #blogsBlock{
+        width:90%;
+        margin-left: 5%;
+    }
+    .graphImg{
+        padding-top: 8vw;
+        width:95%;
+        margin-left: 2.5%;
+
+    }
+    #underGraphLink{
+        width:95%;
+        margin-left: 2.5%;
+        padding-top: 2vw;
+        font-size:4vw;
+    }
+    a.bottomBlog{
+        padding-top: 3vw;
+        font-size: 3.5vw !important;
+    }
+    table#example{
+        padding-top:2vw;
+        padding-bottom: 2vw;
+    }
+
+}

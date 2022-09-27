@@ -1,0 +1,124 @@
+@media(min-width:601px) {
+    #Library {
+        margin-top: 2vw;
+        padding-bottom: 7vw;
+        position: relative;
+    }
+   
+    #Library h1.title {
+        margin-top: -1vw;
+    }
+    #allLibraries {
+        display: flex;
+        width: 95%;
+        margin-left: 2.5%;
+        overflow-x: hidden;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .LibraryDescription h1{
+        height: 5vw;
+    }
+    .LibraryParent {
+        min-width: 33.33%;
+    }
+    .Library {
+        width: 90%;
+        margin-left: 5%;
+         box-shadow: 0.5vw 0.5vw 0vw 0vw rgb(249, 249, 249); 
+        padding-bottom: 2vw;
+        cursor: pointer;
+    }
+    .LibraryImg{
+        position: relative;
+    }
+    .Library .LibraryDescription, .Library .readMore {
+        margin-left: 2vw;
+    }
+   
+
+    .Library .readMore {
+        margin-top: 6vw;
+    }
+    .Library .readMore p {
+        width:fit-content;
+        width: -moz-fit-content;
+    }
+    #Library .arrow {
+        position: absolute;
+        width: 100%;
+        top: 27vw;
+    }
+    #Library .arrow img {
+        width: 3vw;
+        cursor: pointer;
+    }
+    #Library .arrow .right {
+        margin-right: 2vw;
+    }
+    #Library .arrow .left {
+        margin-left: 2vw;
+    }
+
+}
+
+@media(max-width:600px) {
+    #Library {
+        margin-top: 3vw;
+        padding-bottom: 10vw;
+        position: relative;
+    }
+    #Library h1.title {
+        margin-top: -1vw;
+    }
+    #allLibraries {
+        display: flex;
+        width: 95%;
+        margin-left: 2.5%;
+        overflow-x: hidden;
+        padding-top: 4vw;
+        padding-bottom: 5vw;
+    }
+    .LibraryParent {
+        min-width: 100%;
+    }
+    .Library {
+        width: 90%;
+        margin-left: 5%;
+        box-shadow: 1vw 1vw 0vw 0vw rgb(249, 249, 249); 
+        padding-bottom: 2vw;
+        cursor: pointer;
+    }
+    .LibraryImg{
+        position: relative;
+    }
+    .Library .LibraryDescription, .Library .readMore {
+        margin-left: 2vw;
+    }
+    .Library .LibraryDescription h1 {
+        height:20vw;
+    }
+   
+    .Library .readMore{
+        margin-top: 6vw;
+    }
+    .Library .readMore p {
+        width: fit-content;
+        width: -moz-fit-content;
+    }
+    #Library .arrow {
+        position: absolute;
+        width: 100%;
+        top: 73vw;
+    }
+    #Library .arrow img {
+        width: 6vw;
+        cursor: pointer;
+    }
+    #Library .arrow .right {
+        margin-right: 3vw;
+    }
+    #Library .arrow .left {
+        margin-left: 3vw;
+    }
+}

@@ -1,0 +1,128 @@
+@media(min-width:601px) {
+    #Blog {
+        margin-top: 8vw;
+        padding-bottom: 7vw;
+        position: relative;
+    }
+   
+    #Blog h1.title {
+        margin-top: -1vw;
+    }
+    #allArticles {
+        display: flex;
+        width: 95%;
+        margin-left: 2.5%;
+        overflow-x: hidden;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .blogParent {
+        min-width: 33.33%;
+    }
+    .blog {
+        width: 90%;
+        margin-left: 5%;
+         box-shadow: 0.5vw 0.5vw 0vw 0vw rgb(249, 249, 249); 
+        padding-bottom: 2vw;
+        cursor: pointer;
+    }
+    .blogImg{
+        position: relative;
+    }
+    .blog .blogDescription, .blog .readMore {
+        margin-left: 2vw;
+    }
+    .blog .blogDescription .dateProd{
+        display: flex;
+    }
+    .blogDescription .dateProd img{
+        width:1vw;
+    }
+    .blogDescription .dateProd span{
+        margin-left: 1vw;
+    }
+    .blog .readMore {
+        margin-top: 6vw;
+    }
+    .blog .readMore p {
+        width:fit-content;
+        width: -moz-fit-content;
+    }
+    #Blog .arrow {
+        position: absolute;
+        width: 100%;
+        top: 27vw;
+        display: none;
+    }
+
+}
+
+@media(max-width:600px) {
+    #Blog {
+        margin-top: 8vw;
+        padding-bottom: 10vw;
+        position: relative;
+    }
+    #Blog h1.title {
+        margin-top: -1vw;
+    }
+    #allArticles {
+        display: flex;
+        width: 95%;
+        margin-left: 2.5%;
+        overflow-x: hidden;
+        padding-top: 4vw;
+        padding-bottom: 5vw;
+    }
+    .blogParent {
+        min-width: 100%;
+    }
+    .blog {
+        width: 90%;
+        margin-left: 5%;
+        box-shadow: 1vw 1vw 0vw 0vw rgb(249, 249, 249); 
+        padding-bottom: 2vw;
+        cursor: pointer;
+    }
+    .blogImg{
+        position: relative;
+    }
+    .blog .blogDescription, .blog .readMore {
+        margin-left: 2vw;
+    }
+    .blog .blogDescription h1 {
+        height:12vw;
+    }
+    .blog .blogDescription .dateProd{
+        display: flex;
+    }
+    .blogDescription .dateProd img{
+        width:3vw;
+    }
+    .blogDescription .dateProd span{
+        margin-left: 2vw;
+    }
+   
+    .blog .readMore{
+        margin-top: 6vw;
+    }
+    .blog .readMore p {
+        width: fit-content;
+        width: -moz-fit-content;
+    }
+    #Blog .arrow {
+        position: absolute;
+        width: 100%;
+        top: 73vw;
+    }
+    #Blog .arrow img {
+        width: 6vw;
+        cursor: pointer;
+    }
+    #Blog .arrow .right {
+        margin-right: 3vw;
+    }
+    #Blog .arrow .left {
+        margin-left: 3vw;
+    }
+}

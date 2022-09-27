@@ -1,0 +1,223 @@
+#footer {
+    width: 100%;
+    overflow-x: hidden;
+}
+.FFSMedia{
+    cursor: pointer;
+}
+.FFSMedia:nth-child(1) {
+    background-color: rgb(59, 89, 153);
+}
+
+.FFSMedia:nth-child(2) {
+    background-color: rgb(85, 172, 238);
+}
+
+.FFSMedia:nth-child(3) {
+    background-color: rgb(0, 94, 141);
+}
+
+#FFSocialMedia .FFSMedia img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+}
+#FFrthInput{
+    position:relative;
+}
+#FFrthInput p{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+@media(min-width:601px) {
+    #footer {
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+        display: flex;
+        margin-top: 0vw;
+    }
+    .footerBlock {
+        width: 20%;
+        margin-left: 4%;
+    }
+    /* -----------------------------------------------------first block in footer --------------------------------------------------*/
+    #FFLogo img {
+        width: 100%;
+    }
+    .FooterDescription p {
+        font-size: 1vw;
+        line-height: 2vw;
+    }
+    #FFSocialMedia .FFSMedia {
+        width: 2vw;
+        height: 2vw;
+        display: inline-block;
+        margin-left: 2vw;
+        padding: 0.5vw;
+        border-radius: 0.5vw;
+    }
+    /* -----------------------------------------------------second block in footer --------------------------------------------------*/
+    .FooterTitles h1 {
+        font-size: 2vw;
+        margin-top: -0.5vw;
+        height: 4.5vw
+    }
+    #footerSecond #FSServices p {
+        font-size: 1vw;
+        display: flex;
+    }
+    #footerSecond #FSServices p img {
+        width: 1vw;
+    }
+    #footerSecond #FSServices p a {
+        margin-left: 0.5vw;
+    }
+    /* -----------------------------------------------------third block in footer --------------------------------------------------*/
+    .FLatestPost {
+        display: flex;
+    }
+    #FTPosts hr {
+        margin-bottom: 2vw;
+    }
+    .FLatestPost div {
+        width: 40%;
+    }
+    .FLatestPost div:nth-child(2) {
+        width: 50%;
+        margin-left: 5%;
+    }
+    .FPostImg img {
+        width: 100%;
+        border-radius: 0.5vw;
+    }
+    .FPostDescription a {
+        margin-top: -0.1vw;
+    }
+    .FLatestPost .robotMedium {
+        font-size: 1.1vw;
+    }
+    .FLatestPost .robotLight {
+        font-size: 1vw;
+    }
+    /* -----------------------------------------------------fourth block in footer --------------------------------------------------*/
+    #FFrthInput {
+        display: flex;
+    }
+    #FFrthInput input, #FFrthInput button {
+        font-size: 1.1vw;
+        border: none;
+        outline: none;
+        padding: 1vw;
+    }
+    #FFrthInput input {
+        border-top-left-radius: 0.5vw;
+        border-bottom-left-radius: 0.5vw;
+        width: 65%;
+    }
+    #FFrthInput button {
+        border-top-right-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+        width: 35%;
+    }
+    #FFrthDescription p:last-child{
+        margin-top: -0.5vw;
+    }
+    #FFrthInput p{
+        top:2vw;
+    }
+}
+
+@media(max-width:600px) {
+    #footer {
+        padding-top: 4vw;
+        padding-bottom: 10vw;
+    }
+    .footerBlock {
+        margin-left: 2vw;
+        margin-top: 8vw;
+    }
+    /* -----------------------------------------------------first block in footer --------------------------------------------------*/
+    #FFLogo img {
+        width: 70%;
+    }
+    .FooterDescription p {
+        font-size: 3vw;
+        line-height: 5vw;
+    }
+    #FFSocialMedia .FFSMedia {
+        width: 4vw;
+        height: 4vw;
+        display: inline-block;
+        margin-left: 2vw;
+        padding: 1.5vw;
+        position: relative;
+        border-radius: 1vw;
+    }
+    /* -----------------------------------------------------second block in footer --------------------------------------------------*/
+    .FooterTitles h1 {
+        font-size: 5vw;
+    }
+    #footerSecond #FSServices p {
+        font-size: 3vw;
+        display: flex;
+        margin-top: 5vw;
+    }
+    #footerSecond #FSServices p img {
+        width: 3vw;
+    }
+    #footerSecond #FSServices p a {
+        margin-left: 1vw;
+    }
+    /* -----------------------------------------------------third block in footer --------------------------------------------------*/
+    .FLatestPost {
+        display: flex;
+        margin-top: 7vw;
+    }
+    #FTPosts hr {
+        margin-top: 5vw;
+        margin-bottom: 3vw;
+    }
+    .FLatestPost div {
+        width: 40%;
+    }
+    .FLatestPost div:nth-child(2) {
+        width: 50%;
+        margin-left: 5%;
+    }
+    .FPostImg img {
+        width: 100%;
+        border-radius: 0.5vw;
+    }
+    .FLatestPost .robotMedium {
+        font-size: 4vw;
+    }
+    .FLatestPost .robotLight {
+        font-size: 3vw;
+    }
+    /* -----------------------------------------------------fourth block in footer --------------------------------------------------*/
+    #FFrthInput input, #FFrthInput button {
+        font-size: 3vw;
+        border: none;
+        outline: none;
+        border-radius: 1vw;
+        margin-top: 3vw;
+        width: 90%;
+        margin-left: 5%;
+    }
+    #FFrthInput input{
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+    }
+    #FFrthInput button{
+        padding: 3vw;
+
+    }
+    #FFrthInput p{
+        top:-6vw;
+    }
+    
+}

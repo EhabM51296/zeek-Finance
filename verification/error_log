@@ -1,0 +1,344 @@
+[11-Jul-2021 21:40:56 UTC] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /export/home/zeekfinance/public_html/sqlObjects/connect.php:8
+Stack trace:
+#0 /export/home/zeekfinance/public_html/sqlObjects/user.php(20): require()
+#1 /export/home/zeekfinance/public_html/verification/subscribe.php(14): find_userByEmail('ehabmaatouk@out...')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/sqlObjects/connect.php on line 8
+[11-Jul-2021 21:45:22 UTC] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /export/home/zeekfinance/public_html/sqlObjects/connect.php:8
+Stack trace:
+#0 /export/home/zeekfinance/public_html/sqlObjects/user.php(20): require()
+#1 /export/home/zeekfinance/public_html/verification/subscribe.php(15): find_userByEmail('ehabmaatouk@out...')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/sqlObjects/connect.php on line 8
+[11-Jul-2021 21:49:02 UTC] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /export/home/zeekfinance/public_html/sqlObjects/connect.php:8
+Stack trace:
+#0 /export/home/zeekfinance/public_html/sqlObjects/user.php(20): require()
+#1 /export/home/zeekfinance/public_html/verification/subscribe.php(15): find_userByEmail('ehabmaatouk@out...')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/sqlObjects/connect.php on line 8
+[11-Jul-2021 22:05:29 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: data not accepted. in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:1992
+Stack trace:
+#0 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1638): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sun, 11 J...', '<p>From: hadj</...')
+#1 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1471): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /export/home/zeekfinance/public_html/functions/functions.php(85): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /export/home/zeekfinance/public_html/verification/sendMsg.php(11): clientMsg('hadj', 'ehabmaatouk@out...', '412asd', 'testtest')
+#4 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 1992
+[08-Aug-2021 11:08:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /export/home/zeekfinance/public_html/verification/downloadPdf.php:4) in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 9
+[08-Aug-2021 11:08:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /export/home/zeekfinance/public_html/verification/downloadPdf.php:4) in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 10
+[08-Aug-2021 11:08:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /export/home/zeekfinance/public_html/verification/downloadPdf.php:4) in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 11
+[08-Aug-2021 11:26:30 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:26:42 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:26:44 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:26:47 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:26:51 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:27:00 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:28:22 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:28:50 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:29:59 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:30:03 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:30:15 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:31:22 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:31:29 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/RiskManagement.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:31:31 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/RiskManagement.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:31:34 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:32:46 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/MarketAndEquityResearch.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:32:57 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:33:05 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:33:59 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/MarketAndEquityResearch.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:34:03 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/MarketAndEquityResearch.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:34:05 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:34:12 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/MarketAndEquityResearch.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:35:32 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:36:07 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:36:17 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/MarketAndEquityResearch.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:36:32 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/RiskManagement.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:36:34 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:37:16 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/MarketAndEquityResearch.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:37:57 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:38:57 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:38:57 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:39:25 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:39:30 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/MarketAndEquityResearch.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:40:09 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:40:21 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:40:27 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:58:58 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:59:03 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/RiskManagement.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:59:43 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/MarketAndEquityResearch.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:59:43 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/MarketAndEquityResearch.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:59:43 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/MarketAndEquityResearch.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 11:59:46 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/MarketAndEquityResearch.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 12:00:04 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 12:01:19 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 12:02:06 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/MarketAndEquityResearch.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 12:02:44 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/ValuationStudy.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[08-Aug-2021 12:03:16 UTC] PHP Warning:  filesize(): stat failed for https://www.zeekfinance.com/YcJlQCgOqVYcJlQ/RiskManagement.pdf in /export/home/zeekfinance/public_html/verification/downloadPdf.php on line 12
+[07-Sep-2021 19:49:57 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:2149
+Stack trace:
+#0 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1960): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1638): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 7 Se...', 'This is a multi...')
+#2 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1471): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /export/home/zeekfinance/public_html/functions/functions.php(60): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /export/home/zeekfinance/public_html/verification/subscribe.php(25): sendVerfEmail('ehabmaatouk96@o...', 15188)
+#5 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 2149
+[07-Sep-2021 19:55:35 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:2136
+Stack trace:
+#0 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1960): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1638): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 7 Se...', 'This is a multi...')
+#2 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1471): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /export/home/zeekfinance/public_html/functions/functions.php(60): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /export/home/zeekfinance/public_html/verification/subscribe.php(47): sendVerfEmail('ehabmaatouk96@o...', 116040)
+#5 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 2136
+[07-Sep-2021 19:56:25 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:2136
+Stack trace:
+#0 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1960): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1638): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 7 Se...', 'This is a multi...')
+#2 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1471): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /export/home/zeekfinance/public_html/functions/functions.php(60): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /export/home/zeekfinance/public_html/verification/subscribe.php(47): sendVerfEmail('ehabmaatouk96@o...', 42558)
+#5 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 2136
+[19-Sep-2021 09:37:33 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:1092
+Stack trace:
+#0 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1014): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', '', '')
+#1 /export/home/zeekfinance/public_html/functions/functions.php(122): PHPMailer\PHPMailer\PHPMailer->addAddress('')
+#2 /export/home/zeekfinance/public_html/verification/sendMsg.php(19): emailForClients(Array, 'hello from form...')
+#3 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 1092
+[19-Sep-2021 09:46:32 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:1092
+Stack trace:
+#0 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1014): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', '', '')
+#1 /export/home/zeekfinance/public_html/functions/functions.php(122): PHPMailer\PHPMailer\PHPMailer->addAddress('')
+#2 /export/home/zeekfinance/public_html/verification/sendMsg.php(19): emailForClients(Array, 'hello')
+#3 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 1092
+[19-Sep-2021 09:56:08 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:1092
+Stack trace:
+#0 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1014): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', '', '')
+#1 /export/home/zeekfinance/public_html/functions/functions.php(122): PHPMailer\PHPMailer\PHPMailer->addAddress('')
+#2 /export/home/zeekfinance/public_html/verification/sendMsg.php(20): emailForClients(Array, 'hello explode')
+#3 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 1092
+[21-Sep-2021 09:34:25 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file:  in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:3093
+Stack trace:
+#0 /export/home/zeekfinance/public_html/functions/functions.php(121): PHPMailer\PHPMailer\PHPMailer->addAttachment(NULL, NULL)
+#1 /export/home/zeekfinance/public_html/verification/sendMsg.php(22): emailForClients(Array, 'kefak? tmm', NULL, NULL)
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 3093
+[21-Sep-2021 10:30:16 UTC] PHP Warning:  copy(): Filename cannot be empty in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 22
+[21-Sep-2021 10:42:17 UTC] PHP Warning:  copy(uploads/test.html): failed to open stream: No such file or directory in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 22
+[21-Sep-2021 10:43:58 UTC] PHP Warning:  copy(uploads/ealthy employees = healthy returns (1).png): failed to open stream: No such file or directory in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 22
+[21-Sep-2021 10:43:58 UTC] PHP Warning:  move_uploaded_file(uploads/ealthy employees = healthy returns (1).png): failed to open stream: No such file or directory in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 23
+[21-Sep-2021 10:43:58 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phphkrWQA' to 'uploads/ealthy employees = healthy returns (1).png' in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 23
+[21-Sep-2021 10:45:43 UTC] PHP Warning:  copy(uploads/ealthy employees = healthy returns (1).png): failed to open stream: No such file or directory in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 22
+[21-Sep-2021 10:45:43 UTC] PHP Warning:  move_uploaded_file(uploads/ealthy employees = healthy returns (1).png): failed to open stream: No such file or directory in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 26
+[21-Sep-2021 10:45:43 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpsIx4Lx' to 'uploads/ealthy employees = healthy returns (1).png' in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 26
+[21-Sep-2021 10:47:30 UTC] PHP Warning:  copy(uploads/Artboard 5@4x.png): failed to open stream: No such file or directory in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 22
+[21-Sep-2021 10:47:30 UTC] PHP Warning:  move_uploaded_file(uploads/Artboard 5@4x.png): failed to open stream: No such file or directory in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 26
+[21-Sep-2021 10:47:30 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpVA9w9X' to 'uploads/Artboard 5@4x.png' in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 26
+[21-Sep-2021 10:52:19 UTC] PHP Warning:  copy(): Filename cannot be empty in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 22
+[21-Sep-2021 10:53:00 UTC] PHP Warning:  copy(): Filename cannot be empty in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 22
+[21-Sep-2021 11:38:13 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: Group 5204.png in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:3093
+Stack trace:
+#0 /export/home/zeekfinance/public_html/functions/functions.php(121): PHPMailer\PHPMailer\PHPMailer->addAttachment('Group 5204.png')
+#1 /export/home/zeekfinance/public_html/verification/sendMsg.php(26): emailForClients(Array, 'asdasd', 'Group 5204.png')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 3093
+[21-Sep-2021 11:41:27 UTC] PHP Warning:  copy(): Filename cannot be empty in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 22
+[21-Sep-2021 11:43:37 UTC] PHP Warning:  copy(): Filename cannot be empty in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 24
+[21-Sep-2021 11:46:14 UTC] PHP Warning:  copy(): Filename cannot be empty in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 24
+[21-Sep-2021 11:47:03 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: test.html in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:3093
+Stack trace:
+#0 /export/home/zeekfinance/public_html/functions/functions.php(121): PHPMailer\PHPMailer\PHPMailer->addAttachment('test.html')
+#1 /export/home/zeekfinance/public_html/verification/sendMsg.php(25): emailForClients(Array, 'asdasdasd', 'test.html')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 3093
+[21-Sep-2021 18:24:13 UTC] PHP Warning:  copy(): Filename cannot be empty in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 24
+[21-Sep-2021 18:24:40 UTC] PHP Warning:  copy(): Filename cannot be empty in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 24
+[21-Sep-2021 18:25:05 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: Artboard 5@4x.png in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:3093
+Stack trace:
+#0 /export/home/zeekfinance/public_html/functions/functions.php(121): PHPMailer\PHPMailer\PHPMailer->addAttachment('Artboard 5@4x.p...')
+#1 /export/home/zeekfinance/public_html/verification/sendMsg.php(25): emailForClients(Array, 'aa', 'Artboard 5@4x.p...')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 3093
+[21-Sep-2021 18:26:44 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: Artboard 5@4x.png in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:3093
+Stack trace:
+#0 /export/home/zeekfinance/public_html/functions/functions.php(121): PHPMailer\PHPMailer\PHPMailer->addAttachment('Artboard 5@4x.p...')
+#1 /export/home/zeekfinance/public_html/verification/sendMsg.php(25): emailForClients(Array, '', 'Artboard 5@4x.p...')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 3093
+[21-Sep-2021 18:27:04 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: Artboard 5@4x.png in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:3093
+Stack trace:
+#0 /export/home/zeekfinance/public_html/functions/functions.php(121): PHPMailer\PHPMailer\PHPMailer->addAttachment('Artboard 5@4x.p...')
+#1 /export/home/zeekfinance/public_html/verification/sendMsg.php(25): emailForClients(Array, 'aa', 'Artboard 5@4x.p...')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 3093
+[21-Sep-2021 18:31:59 UTC] PHP Warning:  copy(): Filename cannot be empty in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 24
+[21-Sep-2021 18:35:18 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: Artboard 5@4x.png in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:3093
+Stack trace:
+#0 /export/home/zeekfinance/public_html/functions/functions.php(121): PHPMailer\PHPMailer\PHPMailer->addAttachment('Artboard 5@4x.p...')
+#1 /export/home/zeekfinance/public_html/verification/sendMsg.php(25): emailForClients(Array, 'hellozat ', 'Artboard 5@4x.p...')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 3093
+[21-Sep-2021 18:49:15 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: Artboard 5@4x.png in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:3093
+Stack trace:
+#0 /export/home/zeekfinance/public_html/functions/functions.php(121): PHPMailer\PHPMailer\PHPMailer->addAttachment('Artboard 5@4x.p...')
+#1 /export/home/zeekfinance/public_html/verification/sendMsg.php(25): emailForClients(Array, 'asd', 'Artboard 5@4x.p...')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 3093
+[21-Sep-2021 18:53:27 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: Artboard 5@4x.png in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:3093
+Stack trace:
+#0 /export/home/zeekfinance/public_html/functions/functions.php(121): PHPMailer\PHPMailer\PHPMailer->addAttachment('Artboard 5@4x.p...')
+#1 /export/home/zeekfinance/public_html/verification/sendMsg.php(25): emailForClients(Array, 'helloz', 'Artboard 5@4x.p...')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 3093
+[21-Sep-2021 18:54:04 UTC] PHP Warning:  copy(): Filename cannot be empty in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 24
+[21-Sep-2021 18:55:17 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: ealthy employees = healthy returns (2).png in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:3093
+Stack trace:
+#0 /export/home/zeekfinance/public_html/functions/functions.php(121): PHPMailer\PHPMailer\PHPMailer->addAttachment('ealthy employee...')
+#1 /export/home/zeekfinance/public_html/verification/sendMsg.php(25): emailForClients(Array, 'llksandlknasd', 'ealthy employee...')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 3093
+[21-Sep-2021 18:56:36 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: Artboard 5@4x.png in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:3093
+Stack trace:
+#0 /export/home/zeekfinance/public_html/functions/functions.php(121): PHPMailer\PHPMailer\PHPMailer->addAttachment('Artboard 5@4x.p...')
+#1 /export/home/zeekfinance/public_html/verification/sendMsg.php(25): emailForClients(Array, 'asdasdasd', 'Artboard 5@4x.p...')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 3093
+[21-Sep-2021 18:56:50 UTC] PHP Warning:  copy(): Filename cannot be empty in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 24
+[23-Sep-2021 10:37:44 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: Group 5204.png in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:3093
+Stack trace:
+#0 /export/home/zeekfinance/public_html/functions/functions.php(121): PHPMailer\PHPMailer\PHPMailer->addAttachment('Group 5204.png')
+#1 /export/home/zeekfinance/public_html/verification/sendMsg.php(25): emailForClients(Array, 'hello from ehab...', 'Group 5204.png')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 3093
+[23-Sep-2021 10:38:13 UTC] PHP Warning:  copy(): Filename cannot be empty in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 24
+[23-Sep-2021 10:47:30 UTC] PHP Fatal error:  Cannot redeclare emailForClients() (previously declared in /export/home/zeekfinance/public_html/functions/functions.php:108) in /export/home/zeekfinance/public_html/functions/functions.php on line 166
+[23-Sep-2021 10:50:16 UTC] PHP Fatal error:  Cannot redeclare emailForClients() (previously declared in /export/home/zeekfinance/public_html/functions/functions.php:108) in /export/home/zeekfinance/public_html/functions/functions.php on line 166
+[23-Sep-2021 10:51:12 UTC] PHP Fatal error:  Cannot redeclare emailForClients() (previously declared in /export/home/zeekfinance/public_html/functions/functions.php:108) in /export/home/zeekfinance/public_html/functions/functions.php on line 166
+[23-Sep-2021 11:30:01 UTC] PHP Warning:  is_uploaded_file() expects parameter 1 to be string, array given in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 20
+[23-Sep-2021 11:31:41 UTC] PHP Warning:  is_uploaded_file() expects parameter 1 to be string, array given in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 20
+[23-Sep-2021 11:32:28 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 39
+[23-Sep-2021 11:34:17 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 39
+[23-Sep-2021 11:34:53 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 39
+[23-Sep-2021 11:36:08 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 39
+[23-Sep-2021 11:37:40 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 23
+[23-Sep-2021 11:38:02 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 23
+[23-Sep-2021 11:54:43 UTC] PHP Warning:  is_uploaded_file() expects parameter 1 to be string, array given in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 20
+[23-Sep-2021 11:55:04 UTC] PHP Warning:  is_uploaded_file() expects parameter 1 to be string, array given in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 20
+[23-Sep-2021 11:55:42 UTC] PHP Warning:  is_uploaded_file() expects parameter 1 to be string, array given in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 20
+[24-Sep-2021 10:05:15 UTC] PHP Warning:  is_uploaded_file() expects parameter 1 to be string, array given in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 20
+[24-Sep-2021 10:05:25 UTC] PHP Warning:  is_uploaded_file() expects parameter 1 to be string, array given in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 20
+[24-Sep-2021 10:06:11 UTC] PHP Warning:  is_uploaded_file() expects parameter 1 to be string, array given in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 20
+[24-Sep-2021 10:06:27 UTC] PHP Warning:  is_uploaded_file() expects parameter 1 to be string, array given in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 20
+[24-Sep-2021 10:07:17 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 23
+[24-Sep-2021 10:07:59 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 23
+[24-Sep-2021 10:08:30 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 23
+[24-Sep-2021 10:09:03 UTC] PHP Warning:  is_uploaded_file() expects parameter 1 to be string, array given in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 20
+[24-Sep-2021 10:09:12 UTC] PHP Warning:  is_uploaded_file() expects parameter 1 to be string, array given in /export/home/zeekfinance/public_html/verification/sendMsg.php on line 20
+[24-Sep-2021 10:23:54 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: uploads/Artboard 5@4x.png in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:3093
+Stack trace:
+#0 /export/home/zeekfinance/public_html/functions/functions.php(151): PHPMailer\PHPMailer\PHPMailer->addAttachment('uploads/Artboar...')
+#1 /export/home/zeekfinance/public_html/verification/sendMsg.php(35): emailForClientsAttached(Array, 'kefak lyom?!', Array)
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 3093
+[24-Sep-2021 10:27:37 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: uploads/ealthy employees = healthy returns (1).png in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:3093
+Stack trace:
+#0 /export/home/zeekfinance/public_html/functions/functions.php(151): PHPMailer\PHPMailer\PHPMailer->addAttachment('uploads/ealthy ...')
+#1 /export/home/zeekfinance/public_html/verification/sendMsg.php(37): emailForClientsAttached(Array, 'ZX', Array)
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 3093
+[26-Sep-2021 10:18:39 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: File Error: Could not open file: uploads/ealthy employees = healthy returns (2).png in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:3267
+Stack trace:
+#0 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(3240): PHPMailer\PHPMailer\PHPMailer->encodeFile('uploads/ealthy ...', 'base64')
+#1 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(2765): PHPMailer\PHPMailer\PHPMailer->attachAll('attachment', 'b1_teI8VhdKU72L...')
+#2 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1571): PHPMailer\PHPMailer\PHPMailer->createBody()
+#3 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1467): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /export/home/zeekfinance/public_html/functions/functions.php(181): PHPMailer\PHPMailer\PHPMailer->send()
+#5 /export/home/zeekfinance/public_html/verification/sendMsg.php(38): emailForClientsAttached(Array, 'hello i am send...', 'T in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 3267
+[27-Sep-2021 10:59:23 UTC] PHP Warning:  A non-numeric value encountered in /export/home/zeekfinance/public_html/functions/functions.php on line 9
+[27-Sep-2021 10:59:23 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to): ehab in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:1092
+Stack trace:
+#0 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1014): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', 'ehab', '')
+#1 /export/home/zeekfinance/public_html/functions/functions.php(215): PHPMailer\PHPMailer\PHPMailer->addAddress('ehab')
+#2 /export/home/zeekfinance/public_html/verification/sendMsg.php(38): emailForClientsAttached(Array, 'hello from zeek...', 'testing sending...', Array)
+#3 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 1092
+[27-Sep-2021 10:59:44 UTC] PHP Warning:  A non-numeric value encountered in /export/home/zeekfinance/public_html/functions/functions.php on line 9
+[27-Sep-2021 10:59:44 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to): ehab in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:1092
+Stack trace:
+#0 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1014): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', 'ehab', '')
+#1 /export/home/zeekfinance/public_html/functions/functions.php(215): PHPMailer\PHPMailer\PHPMailer->addAddress('ehab')
+#2 /export/home/zeekfinance/public_html/verification/sendMsg.php(38): emailForClientsAttached(Array, 'hello from zeek...', 'testing sending...', Array)
+#3 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 1092
+[27-Sep-2021 11:00:51 UTC] PHP Warning:  A non-numeric value encountered in /export/home/zeekfinance/public_html/functions/functions.php on line 9
+[27-Sep-2021 11:00:51 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to): ehab in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:1092
+Stack trace:
+#0 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1014): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', 'ehab', '')
+#1 /export/home/zeekfinance/public_html/functions/functions.php(215): PHPMailer\PHPMailer\PHPMailer->addAddress('ehab')
+#2 /export/home/zeekfinance/public_html/verification/sendMsg.php(38): emailForClientsAttached(Array, 'hello from zeek...', 'testing sending...', Array)
+#3 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 1092
+[27-Sep-2021 11:01:02 UTC] PHP Warning:  A non-numeric value encountered in /export/home/zeekfinance/public_html/functions/functions.php on line 9
+[27-Sep-2021 11:01:02 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to): ehab in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:1092
+Stack trace:
+#0 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1014): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', 'ehab', '')
+#1 /export/home/zeekfinance/public_html/functions/functions.php(164): PHPMailer\PHPMailer\PHPMailer->addAddress('ehab')
+#2 /export/home/zeekfinance/public_html/verification/sendMsg.php(41): emailForClients(Array, 'hello from zeek...', 'testing sending...')
+#3 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 1092
+[27-Sep-2021 11:01:52 UTC] PHP Warning:  A non-numeric value encountered in /export/home/zeekfinance/public_html/functions/functions.php on line 9
+[27-Sep-2021 11:01:52 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to): ehab in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:1092
+Stack trace:
+#0 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1014): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', 'ehab', '')
+#1 /export/home/zeekfinance/public_html/functions/functions.php(164): PHPMailer\PHPMailer\PHPMailer->addAddress('ehab')
+#2 /export/home/zeekfinance/public_html/verification/sendMsg.php(41): emailForClients(Array, 'swsws', 'wwsws')
+#3 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 1092
+[27-Sep-2021 11:02:18 UTC] PHP Warning:  A non-numeric value encountered in /export/home/zeekfinance/public_html/functions/functions.php on line 9
+[27-Sep-2021 11:02:18 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to): ehab in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:1092
+Stack trace:
+#0 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1014): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', 'ehab', '')
+#1 /export/home/zeekfinance/public_html/functions/functions.php(164): PHPMailer\PHPMailer\PHPMailer->addAddress('ehab')
+#2 /export/home/zeekfinance/public_html/verification/sendMsg.php(41): emailForClients(Array, 'swswsws', 'sw')
+#3 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 1092
+[28-Sep-2021 10:48:28 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: http://zeekfinance.com/assets/logo/logo.png in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:3653
+Stack trace:
+#0 /export/home/zeekfinance/public_html/functions/functions.php(149): PHPMailer\PHPMailer\PHPMailer->addEmbeddedImage('http://zeekfina...', 'logo_2u')
+#1 /export/home/zeekfinance/public_html/verification/sendMsg.php(41): emailForClients(Array, 'asd', 'asd')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 3653
+[28-Sep-2021 12:39:12 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: ../assets/logo/noText.png
+ in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:3653
+Stack trace:
+#0 /export/home/zeekfinance/public_html/functions/functions.php(150): PHPMailer\PHPMailer\PHPMailer->addEmbeddedImage('../assets/logo/...', 'logo_2u')
+#1 /export/home/zeekfinance/public_html/verification/sendMsg.php(41): emailForClients(Array, 'zeekfinance', 'hello from zeek')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 3653
+[28-Sep-2021 12:39:53 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not access file: ../assets/logo/noText.png
+ in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:3653
+Stack trace:
+#0 /export/home/zeekfinance/public_html/functions/functions.php(150): PHPMailer\PHPMailer\PHPMailer->addEmbeddedImage('../assets/logo/...', 'logo_2u')
+#1 /export/home/zeekfinance/public_html/verification/sendMsg.php(41): emailForClients(Array, 'zeekfinance', 'hello from zeek')
+#2 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 3653
+[28-Sep-2021 16:15:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function addReplyTo() on null in /export/home/zeekfinance/public_html/functions/functions.php:147
+Stack trace:
+#0 /export/home/zeekfinance/public_html/verification/sendMsg.php(41): emailForClients(Array, 'hellow', 'hellow')
+#1 {main}
+  thrown in /export/home/zeekfinance/public_html/functions/functions.php on line 147
+[18-Oct-2021 00:31:42 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: The following From address failed: info@zeekfinance.com : MAIL FROM command failed,Client not authenticated to send mail. [MRXP264CA0040.FRAP264.PROD.OUTLOOK.COM]
+,530,5.7.57SMTP server error: MAIL FROM command failed Detail: Client not authenticated to send mail. [MRXP264CA0040.FRAP264.PROD.OUTLOOK.COM]
+ SMTP code: 530 Additional SMTP info: 5.7.57 in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php:1971
+Stack trace:
+#0 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1638): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 18 O...', 'This is a multi...')
+#1 /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php(1471): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /export/home/zeekfinance/public_html/functions/functions.php(174): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /export/home/zeekfinance/public_html/verification/sendMsg.php(41): emailForClients(Array, 'mbm', 'hhh')
+#4 {main}
+  thrown in /export/home/zeekfinance/public_html/verification/PHPMailer/PHPMailer.php on line 1971

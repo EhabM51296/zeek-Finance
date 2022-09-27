@@ -1,0 +1,233 @@
+#absoluteTitle{
+    display: flex;
+    border-radius: 1vw;
+}
+
+
+
+#absoluteTitle #bulbContainer{
+    border-radius: 50%;
+}
+
+#bulbContainer img{
+    box-shadow: 0vw 0vw 0vw 0vw black !important;
+}
+#aboutUs button{
+    border-radius: 0.5vw;
+}
+@media(min-width:601px)
+{
+    #aboutUs{
+        margin-top: 8vw;  
+        display: flex;        
+    }
+    #aboutUsLeft{
+        width:50%;
+        position: relative;
+    }
+    #aboutUsLeft img{
+        width:80%;
+        margin-left: 10%;
+        box-shadow: 0.5vw 0.5vw 0.5vw 0.5vw black;
+    }
+    
+    #absoluteImg{
+        position: absolute;
+        width:60%;
+        top:61%;
+        left:50%;
+    }
+    
+    #absoluteImg img{
+        width:90%;
+        margin-left:0.5vw;
+       margin-top: 0.5vw;
+    }
+    #absoluteTitle{
+        position:absolute;
+        top:25vw;
+        width:65%;
+        padding-top:1.5vw;
+        padding-bottom:1vw;
+        left:10%;
+    }
+    
+    #absoluteTitle #bulbContainer{
+        width:7vw;
+        height:7vw;
+        margin-left: 2vw;
+    }
+    
+    #bulbContainer img{
+        width:40%;
+        margin-left: 30%;
+        margin-top: 2vw;
+    }
+    #experienceContainer{
+        margin-left:2vw;
+        width:50%;
+    }
+    
+    #aboutUsRight{
+        width:45%;
+        margin-left: 5%;
+    }
+  
+    
+    #aboutUsRight .aboutUsDetails{
+        line-height: 2vw;
+        margin-top: -0.5vw;
+    }
+    #goalContainer{
+        width:100%;
+        margin-top: 2vw;
+    
+    }
+    .ourGoals{
+        width:100%;
+        margin-top: 5vw;
+        position: relative;
+    }
+    
+    .ourGoals .goalIcons{
+        width:6vw;
+        height:6vw;
+        border-radius: 50%;
+    }
+    .goalDetails{
+        width:100%;
+        margin-left:7vw;
+    }
+    .ourGoals .goalDetails h2{
+        position: absolute;
+        top:-1.5vw;
+    }
+    
+    .ourGoals .goalDetails p{
+        position: absolute;
+        top:1.5vw;
+        line-height: 2vw;
+    }
+    
+    .goalIcons img{
+        width:50%;
+        margin-left: 25%;
+        margin-top: 1.5vw;
+    }
+
+    #aboutUsRight button{
+        padding-left:3vw;
+        padding-right:3vw;
+        margin-top:3vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+    
+}
+@media(max-width:600px)
+{
+    
+    #aboutUs{
+        margin-top: 5vw;        
+    }
+    #aboutUsLeft{
+        width:100%;
+        position: relative;
+    }
+    #aboutUsLeft img{
+        width:95%;
+        margin-left: 2.5%;
+    }
+    
+    #absoluteImg{
+        width:100%;
+        margin-top: 0.5vw;
+    }
+    
+    #absoluteImg img{
+        width:90%;
+        margin-left: 5%;
+    }
+    #absoluteTitle{
+        width:95%;
+        padding-top:1.5vw;
+        padding-bottom:1vw;
+        margin-left:2.5%;
+    }
+    
+    #absoluteTitle #bulbContainer{
+        width:15vw;
+        height:15vw;
+        margin-left: 6vw;
+        margin-top:5vw;
+    }
+    
+    #bulbContainer img{
+        width:60%;
+        margin-left: 20%;
+        margin-top: 3.5vw;
+    }
+
+     
+    #experienceContainer{
+        margin-left:4vw;
+        width:80%;
+    }
+    
+    #aboutUsRight{
+        margin-top: 10vw;
+        width:95%;
+        margin-left: 2.5%;
+    }
+    
+    #aboutUsRight .aboutUsDetails{
+        line-height: 8vw;
+    }
+    #goalContainer{
+        width:100%;    
+        margin-top: 15vw;
+    }
+    .ourGoals{
+        width:100%;
+        position: relative;
+    }
+    .ourGoals:nth-child(2)
+    {
+        margin-top: 40vw;
+    }
+    
+    .ourGoals .goalIcons{
+        width:15vw;
+        height:15vw;
+        border-radius: 50%;
+    }
+    .goalDetails{
+        width:100%;
+        margin-left:20vw;
+    }
+    .ourGoals .goalDetails h2{
+        position: absolute;
+        top:-8vw;
+    }
+    
+    .ourGoals .goalDetails p{
+        position: absolute;
+        top:1.5vw;
+        line-height: 8vw;
+    }
+    
+    .goalIcons img{
+        width:50%;
+        margin-left: 25%;
+        margin-top: 3.5vw;
+    }
+    
+
+    #aboutUsRight button{
+       padding: 4vw;
+        margin-top:25vw;
+        border-radius: 1.5vw;
+    }
+}
+
+

@@ -1,0 +1,36 @@
+table{
+	width:100%;
+}
+
+.infoRow{
+	background:black;
+	color:white;
+}
+table tr th{
+	width:20%;
+}
+@media(min-width:601px){
+	table{
+		margin-top:1vw;
+	}
+	.actionsContainer{
+		margin-top:1vw;
+	}
+.respChkBox{
+    width:1.2vw;
+    height:1.2vw;
+}
+}
+
+@media(max-width:600px){
+	table{
+		margin-top:3vw;
+	}
+	.actionsContainer{
+		margin-top:2vw;
+	}
+	.respChkBox{
+    width:2vw;
+    height:2vw;
+}
+}
